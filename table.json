@@ -1,0 +1,21 @@
+[
+  [
+    {
+      "name": "NSI",
+      "2h": true,
+      "class": "nsi"
+    },
+    {
+      "name":"Français",
+      "2h": false,
+      "class": "fr"
+    }
+  ],
+  [
+    {
+      "name": "Maths",
+      "2h": true,
+      "class": "maths"
+    }
+  ]
+]
