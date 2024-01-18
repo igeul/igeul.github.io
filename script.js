@@ -45,7 +45,7 @@ table.addEventListener(
 
 // ce qui suit ne fonctionne pas
 
-var requestURL = "https://test-40959-default-rtdb.europe-west1.firebasedatabase.app/";
+var requestURL = "table.json";
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "text";
