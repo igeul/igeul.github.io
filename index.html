@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title >Mon emploi du temps</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 id="test">Emploi du temps</h1>
+<button onclick="surlin('nsi')">NSI</button>
+<button onclick="surlin('maths')">MATHS</button>
+<button onclick="surlin('fr')">FRANCAIS</button>
+<button onclick="surlin('sport')">SPORTS</button>
+<button onclick="surlin('alld')">ALLEMAND</button>
+<button onclick="surlin('eng')">ANGLAIS</button>
+<button onclick="surlin('phy')">PHYSIQUE</button>
+<button onclick="surlin('hg')">HISTOIRE GEO</button>
+<button onclick="surlin('svt')">SVT</button>
+<button onclick="suppr()">SUPPR</button>
+<table id="edt">
+  <thead>
+    <tr>
+      <th scope="col">Heure</th>
+      <th scope="col">Lundi</th>
+      <th scope="col">Mardi</th>
+      <th scope="col">Mercredi</th>
+      <th scope="col">Jeudi</th>
+      <th scope="col">Vendredi</th>
+      <th scope="col">Samedi</th>
+      <th scope="col">Dimanche</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">8h30</th>
+      <td rowspan="2" class="nsi">NSI</td>
+      <td rowspan="2" class="maths">Maths</td>
+      <td rowspan="2" class="nsi">NSI</td>
+      <td class="vide"></td>
+      <td rowspan="2" class="fr">Français</td>
+      <td rowspan="2" class="maths">Maths</td>
+    </tr>
+    <tr>
+      <th scope="row">9h25</th>
+      <td rowspan="2" class="phy">Physique</td>
+    </tr>
+    <tr>
+      <th scope="row">10h35</th>
+      <td class="fr">Français</td>
+      <td class="eng">Anglais</td>
+      <td class="vide"></td>
+      <td class="hg">EMC</td>
+    </tr>
+    <tr>
+      <th scope="row">11h30</th>
+      <td class="vide"></td>
+      <td class="vide"></td>
+      <td class="vide"></td>
+      <td class="vide"></td>
+      <td class="alld">Allemand</td>
+    </tr>
+    <tr>
+      <th scope="row">12h25</th>
+      <td class="sport">AS Volley</td>
+      <td class="vide"></td>
+      <td class="vide"></td>
+      <td class="alld">Allemand</td>
+      <td class="sport">AS Volley</td>
+    </tr>
+    <tr>
+      <th scope="row">13h30</th>
+      <td class="alld">Allemand</td>
+      <td rowspan="2" class="sport">Sport</td>
+      <td rowspan="2" class="hg">Histoire Géo</td>
+      <td rowspan="2" class="maths">Maths</td>
+      <td class="phy">Physique</td>
+    </tr>
+    <tr>
+      <th scope="row">14h25</th>
+      <td class="hg">Histoire Géo</td>
+    </tr>
+    <tr>
+      <th scope="row">15h35</th>
+      <td class="eng">Anglais</td>
+      <td rowspan="2" class="fr">Français</td>
+      <td rowspan="2" class="maths">Preparation<br>olympiades</td>
+      <td class="vide"></td>
+      <td rowspan="2" class="phy">TP Physique</td>
+    </tr>
+    <tr>
+      <th scope="row">16h30</th>
+      <td class="svt">ES SVT</td>
+    </tr>
+    <tr>
+      <th scope="row">17h25</th>
+      <td class="phy">ES Physique</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+<script src="script.js"></script>
+</html>
